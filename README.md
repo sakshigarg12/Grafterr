@@ -30,7 +30,7 @@ npm run dev
 
 ## Live Demo
 
-(Add your deployed link)
+(https://grafterr-xgg6-7d7b7z44i-sakshigarg12s-projects.vercel.app/)
 
 ## Approach
 

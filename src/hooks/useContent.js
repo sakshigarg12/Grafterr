@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 function useContent(fetchFn) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const loadData = () => {
+  const loadData = useCallback(() => {
     setLoading(true);
     setError(false);
 
@@ -19,11 +19,11 @@ function useContent(fetchFn) {
       .finally(() => {
         setLoading(false);
       });
-  };
+  }, [fetchFn]);
 
   useEffect(() => {
     loadData();
-  }, []);
+  }, [loadData]); //
 
   return { data, loading, error, retry: loadData };
 }

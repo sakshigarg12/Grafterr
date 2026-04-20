@@ -1,0 +1,36 @@
+{
+  "navigation": {
+    "logo": {
+      "text": "Grafterr"
+    },
+    "links": ["Products", "Solutions"],
+    "ctaNav": "Get Started"
+  },
+
+  "hero": {
+    "headlinePrefix": "Power your restaurant with",
+    "headlineGradient": "technology provider",
+    "subheadline": "All-in-one platform to grow your business",
+    "cta": "Learn More"
+  },
+
+  "features": {
+    "title": "Products to",
+    "titleAccent": "grow your business",
+    "subtitle": "Everything you need to run your restaurant",
+    "products": [
+      {
+        "title": "Point of sale",
+        "desc": "Fast billing system"
+      },
+      {
+        "title": "Self-service",
+        "desc": "Reduce wait time"
+      },
+      {
+        "title": "Kitchen Management",
+        "desc": "Optimize orders"
+      }
+    ]
+  }
+}
